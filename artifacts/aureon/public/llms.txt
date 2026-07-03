@@ -1,0 +1,30 @@
+# SculptRx
+
+> SculptRx is a physician-led women's health and weight loss platform offering clinician-guided GLP-1 therapy (semaglutide and tirzepatide), hormone replacement therapy, and personalized weight loss plans — built specifically for women.
+
+SculptRx is operated by ASR Health LLC, a Florida limited liability company. All prescriptions are reviewed by board-certified U.S. physicians and fulfilled through licensed U.S. compounding pharmacies.
+
+## Core Pages
+
+- [Home](https://joinsculptrx.com/): Brand overview, how it works, membership pricing, and waitlist sign-up.
+- [Free Quiz / Start](https://joinsculptrx.com/start): Entry point for the eligibility quiz — the first step for prospective patients.
+- [About Us](https://joinsculptrx.com/about): Company story, physician-led care model, and brand values.
+- [Contact](https://joinsculptrx.com/contact): Customer support contact form and direct email.
+- [Terms of Service](https://joinsculptrx.com/terms): Full legal terms governing use of the platform.
+
+## Landing Pages
+
+- [Ghosted by Your Doctor?](https://joinsculptrx.com/lp/ghosted): Funnel landing page addressing women who have been dismissed by conventional care.
+- [Transparent Pricing](https://joinsculptrx.com/lp/price): Landing page detailing SculptRx membership and medication pricing.
+
+## Key Facts
+
+- Medications offered: Semaglutide (GLP-1, starting at $199/mo) and Tirzepatide (GLP-1 + GIP, starting at $259/mo)
+- Physician review guaranteed within 24 hours of intake submission
+- No payment required until a physician approves the patient's plan
+- Platform is telehealth-only; no in-person visits required
+- Not available in California
+
+## Canonical Domain
+
+https://joinsculptrx.com

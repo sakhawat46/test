@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "SculptRx"
+version = "1.0.0"
+id = "artifacts/aureon"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 26245
+
+[services.development]
+run = "pnpm --filter @workspace/aureon run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/aureon", "run", "build" ]
+publicDir = "artifacts/aureon/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "26245"
+BASE_PATH = "/"

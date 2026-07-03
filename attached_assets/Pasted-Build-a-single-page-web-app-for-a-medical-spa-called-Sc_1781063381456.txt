@@ -1,0 +1,58 @@
+Build a single-page web app for a medical spa called SculptRx. It's a GLP-1 pre-qualification quiz. Use HTML, CSS, and vanilla JavaScript. No frameworks.
+
+DESIGN
+Clean, clinical, and premium feel. White background, soft shadows, muted teal or navy accent color, sans-serif font. One question displays at a time with a smooth fade transition between steps. Progress bar at the top that fills as the user advances. SculptRx logo placeholder at the top as a text lockup in the accent color.
+
+BMI LOGIC
+Step 2 shows two inputs: height (feet and inches as separate dropdowns) and weight (lbs, number input). Auto-calculate BMI when the user clicks Next. Do not display the BMI number to the user. Use it only for internal routing: under 27 = disqualify, 27–29.9 = show Q3, 30+ = skip Q3.
+
+QUESTIONS & ROUTING
+
+Q1: "How old are you?"
+Single number input field. Only accept whole numbers. If the value entered is under 18 → Not Eligible screen. If 18 or older → continue to Q2.
+
+Q2: Height and weight inputs. BMI auto-calculates.
+Under 27 → Not Eligible. 27–29.9 → Q3. 30+ → Q4.
+
+Q3 (conditional, only shown if BMI 27–29.9): "Do you have any of these conditions?"
+Checkboxes: Type 2 diabetes or prediabetes / High blood pressure / High cholesterol or sleep apnea / Heart or liver disease / None of the above.
+Only "None of the above" selected → Not Eligible. Any condition selected → Q4.
+
+Q4: "Do any of these apply to you?"
+Checkboxes: Personal or family history of medullary thyroid cancer (MTC) or MEN 2 syndrome / Currently pregnant, breastfeeding, or planning pregnancy within 2 months / Known allergy to semaglutide or tirzepatide / Severe gastroparesis (stomach paralysis) / None of the above.
+Anything other than "None of the above" → Not Eligible. None of the above → Q5.
+
+Q5: "Do any of these apply?"
+Checkboxes: History of pancreatitis / Currently taking insulin or diabetes medication / Surgery requiring anesthesia within 30 days / Type 1 diabetes / None of the above.
+Any selection other than "None of the above" → Needs Provider Review. None of the above → Likely Eligible.
+
+OUTCOME SCREENS
+
+1. LIKELY ELIGIBLE
+Headline: "Great news — you may qualify for GLP-1 therapy."
+Subtext: "Based on your responses, you appear to be a candidate. Book a consultation to take the next step."
+Button: "Book My Consultation" (placeholder link).
+
+2. NEEDS PROVIDER REVIEW
+Headline: "You may still qualify — a quick review is needed."
+Subtext: "Some of your responses require a provider to take a closer look before we proceed. We'll flag your responses so your consultation is focused and efficient."
+Button: "Book My Consultation" (placeholder link).
+
+3. NOT ELIGIBLE
+Headline: "GLP-1 may not be the right fit right now."
+Subtext: "Based on your responses, GLP-1 therapy may not be appropriate at this time. We offer other treatments that may be a great match for your goals."
+Button: "Explore Other Services" (placeholder link).
+
+All three outcome screens show this disclaimer in small text at the bottom: "This quiz does not constitute medical advice. Final eligibility is determined by a licensed healthcare provider during your consultation."
+
+CHECKBOX BEHAVIOR
+"None of the above" automatically deselects all other options when clicked. Selecting any other option automatically deselects "None of the above."
+
+VALIDATION
+Prevent the user from clicking Next without making a selection or entering a value. For the age field, reject non-numeric input and show an inline error. Show a subtle inline error message if any step is submitted incomplete.
+
+RESPONSIVE
+Fully mobile responsive. Card centered on desktop, full-width on mobile with comfortable padding.
+
+PROGRESS BAR
+Accurately reflects 5 steps total, or 4 steps if Q3 is skipped due to BMI being 30 or above.

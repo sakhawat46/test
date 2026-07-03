@@ -1,0 +1,2 @@
+- [shadcn Button className ignored](button-classname-ignored.md) — if style overrides silently do nothing, check the component actually merges `className` via `cn()` instead of hardcoding classes.
+- [MDI Webhook Integration](mdi-webhook-integration.md) — MDI needs medication + plan selection data via webhook on intake submission; params already threaded through URL.

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <!--app-head-->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "MedicalBusiness",
+          "@id": "https://joinsculptrx.com/#organization",
+          "name": "SculptRx",
+          "url": "https://joinsculptrx.com",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://joinsculptrx.com/og-image.jpg",
+            "width": 1200,
+            "height": 630
+          },
+          "description": "SculptRx — clinician-guided GLP-1 weight loss and hormone replacement therapy built for women.",
+          "medicalSpecialty": "WomensHealth"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://joinsculptrx.com/#website",
+          "url": "https://joinsculptrx.com",
+          "name": "SculptRx",
+          "description": "Physician-led women's health and weight loss platform.",
+          "publisher": {
+            "@id": "https://joinsculptrx.com/#organization"
+          }
+        }
+      ]
+    }
+    </script>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"></noscript>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

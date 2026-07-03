@@ -1,0 +1,13 @@
+
+What still needs work:
+1. The band has no visual separation from the sections above and below it. It’s blending into both the hero and the next section. The teal tint either wasn’t applied or is too faint to render on mobile. The top border rule also appears absent. This is the most urgent fix — the band currently looks like floating orphaned text rather than an intentional design element.
+2. The inline badge text is wrapping. “Independent Women’s Health Research” is breaking to a second line which makes it read as body copy rather than a compact credibility signal. The font size needs to come down to 10px or the container needs a minimum width so it stays on one line.
+3. The dot is misaligned. The teal bullet is sitting at the top-left of the text block rather than vertically centered with the first line. It needs align-items: center on the flex container so it sits mid-line with “Proudly funds.”
+4. Too much vertical space 
+
+The trust band between the hero and the “You’ve tried everything” section still needs four fixes. Touch only this band — nothing else:
+Fix 1 — Background and border The band background tint is not showing. Explicitly set the band container’s background to rgba(42, 157, 143, 0.06) — increase from 0.04 to 0.06 so it’s visible on mobile. Also explicitly set border-top: 1px solid rgba(42, 157, 143, 0.15) and border-bottom: 1px solid rgba(42, 157, 143, 0.15) on the band container. If the container has background: white or background: transparent set anywhere in its styles, override it with the teal tint value.
+Fix 2 — Prevent text wrapping on the inline badge The inline badge text “Proudly funds The Female Health Institute · Independent Women’s Health Research” is wrapping to two lines. Add white-space: nowrap to the inline badge element. If the screen is too narrow to fit it on one line at the current font size, reduce the font size to 10px until it fits on one line without wrapping on a 390px wide screen.
+Fix 3 — Vertically center the dot with the text The teal dot bullet is sitting at the top of the text block instead of being vertically centered with it. Set the inline badge wrapper to display: flex, align-items: center, gap: 6px. The dot should sit at the vertical midpoint of the text line, not the top.
+Fix 4 — Reduce bottom padding There is too much space between the bottom of the band and the next section. Set the band container’s padding-bottom to 12px. If there is a margin-top on the section below the band, set it to 0 and let the next section’s own padding handle the spacing.
+Show me mobile view after all four fixes are applied.

@@ -1,0 +1,95 @@
+The hero image is still too small and does not have enough visual dominance.
+
+Increase the vial image size by approximately 60-80% on mobile.
+
+The image should span nearly the full width of the content area while maintaining comfortable margins.
+
+The vials should become the primary visual element of the section.
+
+⸻
+
+Move the vials below the headline and pink subheadline.
+
+Current placement beside the headline makes both elements compete for attention.
+
+The ideal mobile order is:
+
+1. Logo
+2. Headline
+3. Vial image
+4. Supporting paragraph
+5. Benefit cards
+6. Email signup form
+
+⸻
+
+The vials should partially overlap the space above the paragraph.
+
+This creates depth and makes the image feel intentionally designed instead of inserted into a grid.
+
+⸻
+
+Remove the white square container behind the vial image.
+
+The image should float directly on the page background.
+
+Keep the glow effect but eliminate the boxed appearance.
+
+The current card makes the image feel smaller and less premium.
+
+⸻
+
+Increase the teal and pink glow behind the vials by approximately 25%.
+
+Keep it subtle, but make it more noticeable.
+
+The glow should create a luxury skincare / premium healthcare aesthetic.
+
+⸻
+
+Add a stronger floating shadow beneath the vials.
+
+The image should feel three-dimensional.
+
+Think premium Apple product photography rather than stock medical photography.
+
+⸻
+
+Reduce the width of the body paragraph slightly.
+
+The paragraph currently dominates too much visual space.
+
+The product should be more important than the explanatory text.
+
+⸻
+
+Add more vertical spacing between:
+
+* Headline
+* Vial image
+* Paragraph
+* Benefit cards
+
+The section currently feels compressed.
+
+Premium brands use more whitespace.
+
+⸻
+
+The benefit cards should sit noticeably lower.
+
+The cards are currently competing with the vials.
+
+The vials should clearly be the hero of the section.
+
+⸻
+
+The goal should be that when someone lands on the page, they see:
+
+“SculptRx was built for you.”
+
+Immediately followed by:
+
+Large premium Semaglutide + Tirzepatide image.
+
+Everything else should support those two elements.

@@ -1,0 +1,19 @@
+
+Kaniz Fatema
+Jun 25 at 11:17 PM
+After looking closely at your niche, layout, and goals, I have a strategic suggestion that will save you immense time and mo-ney down the road: We should build your frontend on WordPress, while keeping the HIPAA-compliant AWS API layer exactly as planned.
+
+For the exact same cost as refactoring and migra-ting the AI code, we can deliver a fully custom, high-performance WordPress platform. Here is why this is a massive win for SculptRx:
+
+1. As a startup, your text, images, treatments, and pricing will change constantly. In React, you will need a developer every single time you want to change a sentence or fix a typo. With WordPress, you get a beautiful, intuitive admin dashboard. You and your partner can edit text, swap graphics, or add new landing pages in seconds without writing a line of code.
+2. For a telehealth business, organic search traffic is everything. WordPress has industry-standard SEO frameworks (like Yoast or RankMath) out of the box, helping SculptRx rank on Google much faster than a custom React app.
+3. WordPress itself does not need to be HIPAA-compliant because it will just be your public-facing website. The exact same step-by-step intake form will capture user data and instantly pass it to our secure, encrypted AWS API Gateway & Lambda function. No patient health data (ePHI) will ever touch or be stored on WordPress. It passes straight through to AWS and MD Integrations securely, perfectly satisfying your legal compliance posture.
+4. Whether you integrate NMI, Stri-pe, or any other pa-yment gateway in the future, handling subscriptions and content management is vastly smoother when backed by a robust CMS.
+
+That's why I suggest, instead of spending your budget on wrestling with AI-generated React code to make it serverless, let's use that exact same investment to build a professional production-grade setup.
+
+- Development Scope: Re-create your beautiful landing page and intake flow natively in WordPress + Build the secure, HIPAA-compliant AWS Lambda/VPC/Gateway infrastructure to handle the ePHI data transit to MDI.
+
+Let me know if it works for you, and I can share the pricing, which I already gave you an idea of in this message.
+
+Regards

@@ -1,0 +1,109 @@
+uploads = []
+
+[[generated]]
+id = "5KJZ13CDeA1SUUzhd_jat"
+uri = "file://attached_assets/generated_images/vial-mockup-mobile.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "8nWimdCCnVRMyLytzqvwF"
+uri = "file://attached_assets/generated_images/vial-mockup-desktop.png"
+type = "image"
+title = "generated_image"
+
+[[outputs]]
+id = "lAu22gUBT9D2ufyI4gmRT"
+uri = "file://attached_assets/screenshots/7a71d734-e2ae-408e-aaa7-fc20e792f132-00-1hxu6uzj50bje_kirk_replit_dev_mockup_preview_sculpt-premium-v3_ImageDominant.png"
+type = "image"
+title = "Image-Dominant — tightened flow"
+
+[[outputs]]
+id = "W-O5EzRptpFAlD6LcSR1W"
+uri = "file://attached_assets/screenshots/7a71d734-e2ae-408e-aaa7-fc20e792f132-00-1hxu6uzj50bje_kirk_replit_dev_mockup_preview_sculpt-premium-v3_ImageDominantBadges.png"
+type = "image"
+title = "Option B — Pill Badges + Vial (swapped layout)"
+
+[[outputs]]
+id = "V87X-PS1Ih9JBGWZNfDY4"
+uri = "file://attached_assets/screenshots/7a71d734-e2ae-408e-aaa7-fc20e792f132-00-1hxu6uzj50bje_kirk_replit_dev_mockup_preview_hero_DesktopHero1.png"
+type = "image"
+title = "Variant 1 — New image, bottom fade (clean)"
+
+[[outputs]]
+id = "SyF71IHzzB5FViZ2MSmmN"
+uri = "file://attached_assets/screenshots/7a71d734-e2ae-408e-aaa7-fc20e792f132-00-1hxu6uzj50bje_kirk_replit_dev_mockup_preview_hero_DesktopHero2.png"
+type = "image"
+title = "Variant 2 — New image, bottom fade (framed panel)"
+
+[[outputs]]
+id = "vWkUpzP_wTsGP57Ea_R80"
+uri = "file://attached_assets/screenshots/7a71d734-e2ae-408e-aaa7-fc20e792f132-00-1hxu6uzj50bje_kirk_replit_dev_mockup_preview_hero_DesktopHero3.png"
+type = "image"
+title = "Variant 3 — New image, bottom fade (compact)"
+
+[[outputs]]
+id = "8eP_0-BwF0oa1KaibMXuj"
+uri = "file://screenshots/hero-mockup.jpg"
+type = "image"
+title = "SculptRx — Hero (for reference)"
+
+[[outputs]]
+id = "aRUIcYP3iC14cXVMk13PK"
+uri = "file://screenshots/pricing-mockup.jpg"
+type = "image"
+title = "SculptRx — Pricing Section Mockup"
+
+[[outputs]]
+id = "GYFfg3Ca-YMVKhpDrQahp"
+uri = "file://attached_assets/screenshots/7a71d734-e2ae-408e-aaa7-fc20e792f132-00-1hxu6uzj50bje_kirk_replit_dev_mockup_preview_fda-disclosure_VariantA.png"
+type = "image"
+title = "A — Amber Banner Below Header"
+
+[[outputs]]
+id = "tRpjzL4h9CBXTw2k1xulI"
+uri = "file://attached_assets/screenshots/7a71d734-e2ae-408e-aaa7-fc20e792f132-00-1hxu6uzj50bje_kirk_replit_dev_mockup_preview_fda-disclosure_VariantC.png"
+type = "image"
+title = "C — Micro-note Inside Each Card"
+
+[[outputs]]
+id = "lLH6myl6uPVBJj4z3KkJy"
+uri = "file://attached_assets/screenshots/fda-variant-a.jpeg"
+type = "image"
+title = "A — Amber banner between subtitle and cards"
+
+[[outputs]]
+id = "KEJmbCBjC8zYQaIDbgII-"
+uri = "file://attached_assets/screenshots/fda-variant-b.jpeg"
+type = "image"
+title = "B — Fine print below the Continue button"
+
+[[outputs]]
+id = "bxVQs_TO6Z2TxNcjckdw4"
+uri = "file://attached_assets/screenshots/fda-variant-c.jpeg"
+type = "image"
+title = "C — Micro-note inside each card (tinted)"
+
+[[outputs]]
+id = "Q_jdhvnHwdkWApNMGHG5i"
+uri = "file://attached_assets/generated_images/vial-mockup-mobile.png"
+type = "image"
+title = "Mobile vial (no SculptRx)"
+
+[[outputs]]
+id = "p_hWKfm6ILdeIo2BGjEiI"
+uri = "file://attached_assets/generated_images/vial-mockup-desktop.png"
+type = "image"
+title = "Desktop vial (no SculptRx)"
+
+[[outputs]]
+id = "VfHdcavaKX3vcuV5n1BEk"
+uri = "file://.local/sculptr-aws-hipaa-handoff.md"
+type = "text"
+title = "SculptRx — AWS Migration & HIPAA Handoff Sheet (updated)"
+
+[[outputs]]
+id = "pviEiPvan3TQ1blpUD2-9"
+uri = "file://.local/sculptrx-pipeline.md"
+type = "text"
+title = "SculptRx — Deployment Pipeline & Workflow"

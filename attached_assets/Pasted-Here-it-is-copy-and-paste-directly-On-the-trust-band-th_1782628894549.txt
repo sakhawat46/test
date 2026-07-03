@@ -1,0 +1,31 @@
+Here it is — copy and paste directly:
+
+---
+
+On the trust band that appears between the hero section and the first content section (Placement A), make the following changes:
+
+**1. Replace the badge with the inline text variant**
+
+Remove the large card badge with the rectangular border entirely. Replace it with a single inline text line styled as follows: a small filled teal circle dot (6px diameter) on the left, followed by this exact text: "Proudly funds The Female Health Institute · Independent Women's Health Research" — the words "The Female Health Institute" should be in italic serif font matching the site's serif typeface, everything else in regular sans-serif. The entire line should be teal colored. No border, no box, no background card around it — just the dot and the text sitting clean on the band background.
+
+**2. Replace the left copy**
+
+Remove "Committed to advancing women's health research." Replace it with: "Research-backed. Physician-prescribed." in the same bold dark font it currently uses. This is two short statements separated by a period, not a sentence — style accordingly.
+
+**3. Add a subtle background tint to the band**
+
+The band currently blends into the hero above it with no visual separation. Add a background color of teal at 4% opacity to the entire band so it reads as a distinct section without being heavy. Keep the existing top and bottom borders or rules if they exist — if they don't exist, add a single 1px rule in teal at 10% opacity at the top edge of the band only.
+
+**4. Reduce the band's vertical padding**
+
+The band currently has too much vertical padding making it feel like a full section rather than a credibility accent. Reduce top and bottom padding to 14px each so it reads as a tight, purposeful band rather than a content block.
+
+**5. Make the inline badge a clickable link**
+
+Wrap the entire inline dot + text combination in an anchor tag linking to the FHI website. On hover, the text should shift to a slightly darker teal and the dot should scale up to 8px. The cursor should be a pointer. Open the link in a new tab.
+
+**6. Layout on mobile**
+
+On screens under 480px wide, stack the two elements vertically — "Research-backed. Physician-prescribed." on top, the inline badge below it — centered, with 8px gap between them. On desktop keep them side by side with the left copy on the left and the inline badge on the right.
+
+Show me mobile view first.

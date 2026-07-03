@@ -1,0 +1,48 @@
+https://api.mdintegrations.com
+Request and Response Formats
+All API access is over HTTPS. All data is sent and received as JSON.
+Headers
+Please note that all requests require at least these two headers:
+Content-Type: application/json
+Accept: application/json
+API Errors
+Error Codes
+The following table describes all the possible HTTP error codes.
+ Code	Description
+ 400	Bad request
+ 401	Unauthorized. This can happen if the access token is invalid, expired or has been revoked
+ 403	The access token doesn't have access to perform the requested action
+ 404	Resource not found
+ 418	API under maintenance
+ 5XX	An error occurred on the MD Integrations servers. Check MD Integrations Status API for more details or contact the support team
+Error Format
+The following table describes the top-level JSON object attributes present in the body of error messages.
+ key	value
+ error	A detailed error message * on production this field is not returned
+ message	Friendly error message. This error message can be used to be displayed to the final user on the app
+Authentication
+To make any request to the MD Integrations API for Partners, you must first generate a
+brand new access token using your Client ID and Client Secret.
+Both the Client ID and Client Secret should be provided to you by the MD Integrations Team.
+ ⚠️ Be careful with the Client Secret! It should not be shared and should be kept safe. 
+
+Issuing an access token
+The expected flow is shown in the image below:
+ 
+Image source
+As our authorization API you should use the Partners > Request access token endpoint - see it's description for more details.
+After you've created a new access token, you should be ready to make authenticated requests using the HTTP Authorization header with the value Bearer . E.g.:
+http
+GET /partner HTTP/1.1
+...
+Authorization: Bearer eyJ0eXAiOiJKV1Q...
+Expired tokens
+Whenever your token gets expired, you should create a brand new token using the same flow described above.
+Terminology
+patient: person in need of treatment by a physician;
+clinician: a qualified practitioner of medicine. Alias to MD, doctor and physician;
+partner: a partner is a company who sells medications and compounds directly to its patients;
+medication: a substance used for medical treatment, especially a medicine or drug, regularly made by pharmaceutical companies;
+compound: drug that is specifically mixed and prepared for an individual patient, meaning they are not readily available like a regular OTC medication;
+prescription: an instruction written by a clinician that authorizes a patient to be provided by a medication;
+case: set of medication prescriptions requests that the partner sends to MD-Integrations on behalf of a patient.
